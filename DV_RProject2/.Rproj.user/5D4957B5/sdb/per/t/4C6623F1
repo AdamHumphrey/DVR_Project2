@@ -1,0 +1,16 @@
+{
+    "contents" : "---\ntitle: \"Project 2\"\noutput: html_document\n---\n\nThis is the R markdown file for project 2.\n\nGroup members: Adam Humphrey, Travis Cox, Lola Shonaike\n\n\n```{r}\nsource(\"../01 Data/Dataframe call.R\", echo = TRUE)\nsource(\"../02 Data Wrangling/wranglings.R\", echo=TRUE)\n##source(\"../03 Visualizations/visualizations.R\", echo = TRUE)\n```\n\nHere are the plots for each table:\n\n\n\n\n\n",
+    "created" : 1423869799120.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3788917056",
+    "id" : "4C6623F1",
+    "lastKnownWriteTime" : 1423870852,
+    "path" : "C:/Users/Travis Cox/DataVisualization/Project 2/DV_RProject2/00 Doc/RmdDoc.Rmd",
+    "project_path" : "00 Doc/RmdDoc.Rmd",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

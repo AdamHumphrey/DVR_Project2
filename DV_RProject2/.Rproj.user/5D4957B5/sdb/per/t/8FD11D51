@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1423870943706.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8FD11D51",
+    "lastKnownWriteTime" : 27303570957139969,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "geo_springs",
+        "contentUrl" : "content?title=geo_springs&file=2cabdc6953f3441f82a4c9aad71b3610.htm",
+        "displayedObservations" : 1000,
+        "displayedVariables" : 6,
+        "totalObservations" : 4084,
+        "variables" : 6
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,16 @@
+{
+    "contents" : "##Customers##\n##If you look to the left, their is Count Legend, with an example # of Customers from Califronia being 10.\n\nggplot(customers, aes(x = CUSTOMER_STATE)) +\n  geom_bar(width = 1, colour = \"black\") + coord_polar()\n\n##Items##\n##This is a bar graph showing the how many albums a certain artist has for sale.\n\nggplot(items, aes(x=ARTIST)) + geom_bar() + ylab(\"Number of Albums on sale\") + xlab(\"Artist\") + coord_flip()\n\n##Orders##\n##This is a bar graph showing the number of orders placed by a customer with a certain customer id.\n\nggplot(orders, aes(x=CUSTOMER_ID)) + geom_bar(fill=\"white\",colour=\"darkgreen\") + ylab(\"Number of Orders\")+ scale_x_discrete(\"Customer ID\")\n\n##Order details##\n#This graph shows the frequency of which each quantity of each item was sold.\n#EX: One copy of Umani in Concert was ordered 10 times, and two copies of Umani in Comcers were ordered once.\n\nggplot(order_details, aes(x = ITEM_ID, y = ORDER_QTY) ) + stat_sum(aes(group = 1, color = ITEM_ID))",
+    "created" : 1423871008944.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "528794297",
+    "id" : "9861554",
+    "lastKnownWriteTime" : 1423868638,
+    "path" : "C:/Users/Travis Cox/DataVisualization/Project 2/DV_RProject2/03 Visualizations/visualizations.R",
+    "project_path" : "03 Visualizations/visualizations.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

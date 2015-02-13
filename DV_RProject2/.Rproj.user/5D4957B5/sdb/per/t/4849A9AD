@@ -1,0 +1,16 @@
+{
+    "contents" : "library(\"RCurl\")\nlibrary(\"ggplot2\")\nlibrary(\"plyr\")\ngeo_springs <- data.frame(eval(parse(text=substring(getURL(URLencode('http://129.152.144.84:5001/rest/native/?query=\"select * from geosprings\"'), httpheader=c(DB='jdbc:oracle:thin:@129.152.144.84:1521:ORCL', USER='C##cs329e_das3734', PASS='orcl_das3734', MODE='native_mode', MODEL='model', returnFor = 'R', returnDimensions = 'False'), verbose = TRUE), 1, 2^31-1))))\n\"Data frame showing the customers\"\nView(geo_springs)\n",
+    "created" : 1423870357105.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2651602191",
+    "id" : "4849A9AD",
+    "lastKnownWriteTime" : 1423870932,
+    "path" : "C:/Users/Travis Cox/DataVisualization/Project 2/DV_RProject2/01 Data/Dataframe call.R",
+    "project_path" : "01 Data/Dataframe call.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
