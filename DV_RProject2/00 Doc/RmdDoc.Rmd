@@ -7,15 +7,20 @@ This is the R markdown file for project 2.
 
 Group members: Adam Humphrey, Travis Cox, Lola Shonaike
 
-
+#### Here is a subset of the out data set:
 ```{r}
 source("../01 Data/Dataframe call.R", echo = TRUE)
-source("../02 Data Wrangling/wranglings.R", echo=TRUE)
-source("../03 Visualizations/visualizations.R", echo = TRUE)
 ```
 
-Here are the plots for each table:
+#### Here are the data wrangling operations that we used:
+```{r}
+source("../02 Data Wrangling/wranglings.R", echo=TRUE)
+```
 
+#### Here are the plots for each table:
+```{r}
+source("../03 Visualizations/visualizations.R", echo = TRUE)
+```
 
 
 
