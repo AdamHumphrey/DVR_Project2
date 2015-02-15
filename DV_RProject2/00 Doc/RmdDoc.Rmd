@@ -11,7 +11,7 @@ Group members: Adam Humphrey, Travis Cox, Lola Shonaike
 ```{r}
 source("../01 Data/Dataframe call.R", echo = TRUE)
 source("../02 Data Wrangling/wranglings.R", echo=TRUE)
-##source("../03 Visualizations/visualizations.R", echo = TRUE)
+source("../03 Visualizations/visualizations.R", echo = TRUE)
 ```
 
 Here are the plots for each table:
