@@ -1,5 +1,5 @@
 ---
-title: "Project 2"
+title: "Visualization of Freshwater Springs in Austin Texas"
 output: html_document
 ---
 
@@ -7,17 +7,22 @@ This is the R markdown file for project 2.
 
 Group members: Adam Humphrey, Travis Cox, Lola Shonaike
 
-#### Here is a subset of the out data set:
+To briefly summarize, we chose to visualize various variables of Groundwater springs located here in Austin Texas. The original data was pulled from a research period of observing wells behaviour in Barton Springs and Cold Springs. This research data was to observe minimum spring flows of wells and various factors that accompany it. This data was appropiate because the file of the original data was observed over various years and various factors played into viewing minimum spring flow efficiencies. What we did was we took a csv file of the Geosprings data, converted it to a table in SQL developer and started data wrangling in RStudio. Below shows the process of how everything happened.
+#### Here is a subset of the our data set from our GeoSprings table:
 ```{r}
 source("../01 Data/Dataframe call.R", echo = TRUE)
 ```
 
 #### Here are the data wrangling operations that we used:
+First we originally uploaded, the necessary packages such as dplyr and plyr which would play a crucial role in Data wrangling as learned in class.We use tidyr and various data wrangling methods to get our desired data. For the first set, We chose to see if there was a correlation between the part of the wells and if the locations had any effect. For the second set, we were observing the number of data points vs location. For the last set, we observed the springflows of the drains in Cold springs over periods. A period is a discrete amount of time the data was observed. Although, we are not specifically given the length of the period, we certainly know that each period was discrete and the same amount of time. Also, more interesting about this last set, is we  are observing one of things the scientists who recorded this data were primarily interested in.  
 ```{r}
 source("../02 Data Wrangling/wranglings.R", echo=TRUE)
 ```
 
 #### Here are the plots for each table:
+
+As mentioned earlier, below we have the graphs for each data set.
+For the First one,we chose a geom point to easily display the Location vs the Datalabel(or portion of the well). As you can see, various locations were attached to various parts of the well. Even though one of them says well, it is referring to the general main area of the well. For the second plot, we chose a histogram since histograms are known for observing frequencies. Last but not least, a geom area plot was appropiate since the data was dsicrete but there was a vast amount of periods. 
 ```{r}
 source("../03 Visualizations/visualizations.R", echo = TRUE)
 ```
